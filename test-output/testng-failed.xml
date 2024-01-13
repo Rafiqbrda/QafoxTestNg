@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GroupTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="onePack.Oneclass">
+        <methods>
+          <include name="testOneD"/>
+          <include name="testOneA"/>
+          <include name="testOneB"/>
+          <include name="testOneC"/>
+        </methods>
+      </class> <!-- onePack.Oneclass -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [GroupTest] -->
